@@ -45,7 +45,7 @@ const projectList = [
       shuffled when you click a card. The names and images of Pokemon are pulled from PokeAPI.
       Each game starts with a random set of Pokemon based on the difficulty chosen. It is deployed
       on Vercel`,
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    url: "https://pokemon-memory-card-game.vercel.app/",
   },
   {
     title: "Battleship Board Game",
