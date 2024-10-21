@@ -18,24 +18,22 @@ import React from "react";
  */
 import image from "../images/motion-background.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText =    "purple and blue abstract background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
-const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
-
+const description = `Hello! I'm Kevin Benjamin. I'm an aspiring web developer and creative. I want to create visually stunning products with a solid backend to support them. I'm also a digital creative in both the visual and audio space.
+I'm currently pursuing a BTech Degree in Information Science and Engineering from Jain University. Cant wait to see the wonderful things we can build together !!`;
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
   "Web design",
+  "Web Development",
   "User experience",
   "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
   "Graphic design",
 ];
 
@@ -45,7 +43,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all and wonderful to use.";
 
 const About = () => {
   return (
