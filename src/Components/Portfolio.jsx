@@ -31,28 +31,30 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "buildCV",
+    description:`A project where you enter your details and it generates your resume in pdf format. It is fully
+            responsive. It remembers the data entered as it stores it in local storage Built with React,
+            React-pdf, Framer Motion and Vite. It is deployed on Vercel`,
+    url: "https://build-cv-beta.vercel.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Pokemon Memory Card Game",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
+      `A fully responsive Pokemon memory card game built with React, Vite and PokeAPI. The goal
+      of the game is to click through all the cards. You can only click each card once. The cards get
+      shuffled when you click a card. The names and images of Pokemon are pulled from PokeAPI.
+      Each game starts with a random set of Pokemon based on the difficulty chosen. It is deployed
+      on Vercel`,
     url: "https://github.com/microsoft/web-dev-for-beginners",
   },
   {
-    title: "My Resume Site",
+    title: "Battleship Board Game",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      `A web rendition of the classic battleship board game. It has both local player vs player and
+        player vs Computer. It makes use of the HTML Drag and drop API to place ships on the
+      board. It was made to practice test driven development using jest. the project has been bundled
+      using webpack.`,
+    url: "https://haze-09.github.io/battleship/",
   },
 ];
 
