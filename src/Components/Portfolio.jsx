@@ -56,6 +56,12 @@ const projectList = [
       using webpack.`,
     url: "https://haze-09.github.io/battleship/",
   },
+  {
+    title: "My Resume Site",
+    description:
+      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and abilities.",
+    url: "https://haze-09.github.io/battleship/",
+  },
 ];
 
 const Portfolio = () => {
